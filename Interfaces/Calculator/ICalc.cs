@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
+/// <summary>
+/// Интерфейс для класса Calc
+/// </summary>
     internal interface ICalc
     {
         double Sum(double a, double b);
